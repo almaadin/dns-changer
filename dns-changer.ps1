@@ -9,8 +9,8 @@
     All status messages and errors are logged directly within the GUI's status box.
 
 .NOTES
-    Author: Gemini
-    Version: 2.5
+    Author: almaadin
+    Version: 1.0.0
     Changes:
     - Fixed the "Cannot find an overload for 'Invoke'" crash by removing the unnecessary Invoke method from the
       Update-Status function. This resolves the failure to detect network adapters.
