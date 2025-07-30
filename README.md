@@ -40,8 +40,8 @@ If you want to modify the script or build the executable yourself, follow these 
 ### **Compilation Steps**
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/almaadin/dns-changer.git
+   cd dns-changer
    ```
 
 2. **Open PowerShell as Administrator.**
@@ -61,7 +61,7 @@ If you want to modify the script or build the executable yourself, follow these 
 5. **Compile the script:**
    Run the following command in PowerShell from the project's root directory. This will create the **DNS Changer.exe** file:
    ```powershell
-   ps2exe -inputFile 'DNS-Changer-GUI.ps1' -outputFile 'DNS Changer.exe' -noConsole -iconFile 'icon.ico'
+   ps2exe -inputFile 'dns-changer.ps1' -outputFile 'DNS Changer.exe' -noConsole -iconFile 'icon.ico'
    ```
    - `-noConsole`: Prevents the black console window from appearing.  
    - `-iconFile 'icon.ico'`: Embeds the application icon.
